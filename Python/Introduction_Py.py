@@ -33,3 +33,37 @@ nombre1 = 'Wilman'
 # Debo convertir ciertas variables a string para poder usar el siguiente comando:
 #print('Hola' + nombre1 + 'Tu numero es:' + numero)
 print('Hola ' + nombre1 + ' Tu numero es: ' + str(numero))
+
+#Para saber el tipo de dato de una variable
+print(type(numero))
+
+numerocientifico = 430000000000000.67
+print(numerocientifico)
+
+name = 'wilman'
+lastname = "rodriguez"
+#1 Forma de imprimir
+template = 'Hola, mi nombre es {} y mi apellido es {}'.format(name,lastname)
+print (template)
+
+#2 forma de imprimir
+template = 'Que tal, mi nombre es ' + name + ' y mi apellido es ' + lastname
+print(template)
+
+#3 forma de imprimir mas optima
+# La 'f' significa format, me permite que las llaves funcionen 
+template = f"Quibo, mi nombre es {name} y mi apellido es {lastname}"
+print(template)
+
+template= name + ' '+ lastname
+print(template)
+
+boleano = True
+print(type(boleano))
+
+#Se triplica el hola
+print('Hola' * 3)
+
+#Invertir boleanos
+print(not True)
+print(not False)
