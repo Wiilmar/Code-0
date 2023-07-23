@@ -1,0 +1,27 @@
+-----------------------------------
+           APUNTES [JS]
+----------------------------------
+Tipos de datos:
+Undefined: Indefinido (No hay valor asignado)
+Null: Nulo (No existe la variable)
+String: (Cadena de caracteres)
+Symbol: ([P])
+Number: (Numeros)
+Object: Objeto (Estructura que nos permita relacionar propiedades y funciones)
+-------------------------------------
+camelCase (Joroba de camello): Sirve para ser descriptivo con las variables de la siguiente manera:
+
+numerosPositivos, nombreCompleto, usuariosRegistrados, resultadoOperacion, numeroDeDonas
+
+#
+
+Snake_Case (): Separar con un '_' para los nombres de las variables:
+
+caso_1, suma_divisor, valor_negativo, proceso_suma, resultado_aprobado, valor_de_productos
+
+#
+
+PascalCase (): No usar espacios, solo colocar la primer letra de la palabra en mayuscula:
+
+FraseFavorita, CarrosMatriculados, PersonaRegistrada, DatosUsuarios, AnimalesReportados, ResultadoDeDonas.
+-------------------------------------
