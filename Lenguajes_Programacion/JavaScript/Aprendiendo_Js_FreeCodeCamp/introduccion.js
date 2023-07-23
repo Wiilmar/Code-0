@@ -38,8 +38,19 @@ b = ' a programar en Js'
 a += b
 console.log(a)
 // - - - - - - - - - - - - - -
+//Longitud de una cadena
+a = 'ABC D\$?/'
+console.log(a.length)
+// - - - - - - - - - - - - - -
+//Acceder al indice de la cadena
+a = 'ABCDEFG'
+/*
+Cadena: A B C D E F G
+Indices:0 1 2 3 4 5 6
+*/
+console.log(a[3])
 // - - - - - - - - - - - - - -
 // - - - - - - - - - - - - - -
 // - - - - - - - - - - - - - -
 // - - - - - - - - - - - - - -
-// - - - - - - - - - - - - - -
+console.log('[AQUI ESTAS] [V]')
