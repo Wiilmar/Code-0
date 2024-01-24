@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Repaso de html </title>
+</head>
+<body>
+
+  <main>
+    <!-- Main: contenido principal de la pagina -->
+    <h1> Titan </h1>
+    <h2> Gigante </h2>
+    <h3> Grande </h3>
+    <h4> Mediano </h4>
+    <h5> Pequeno </h5>
+    <h6> Chiquito </h6>
+
+    <a href="#img_1"> imagen </a>
+
+    <p> Yo soy un parrafo dormilon </p>
+    <p> Si quieres profundizar más sobre la metodología de Atomic Design te recomiendo que te leas el libro de Brad Frost, ‘Atomic Design’, en el que cuenta más en detalle los orígenes e introduce más ejemplos. Puedes encontrarlo en su web, tanto en formato físico como digital. </p>
+
+    <p> Un lugar construido exclusivamente para diseñador@s /UX y de producto que buscan crecer día tras día :&#41 <a href="https://ascii.cl/es/codigos-html.htm" target="_blank" rel="noopener noreferrer"> Unete </a></p>
+    <!-- **target me permite indicar como el usuario podra visualizar la pagina al darle click al enlace: _blank = Otra pagina / Sin target se abre en la misma pagina -->
+    <!-- **rel="noopener noreferrer" Previene ataques de duplicados cuando se abre el enlace-->
+
+    <p>¡Únete a 7184 diseñador@s y empieza ya!</p>
+    <a href="https://www.uifrommars.com/atomic-design-ventajas/"> <img id="img_1" src="https://img.freepik.com/foto-gratis/hermosa-escena-dibujos-animados-personajes-anime_23-2151035157.jpg?size=626&ext=jpg&ga=GA1.1.1412446893.1706054400&semt=sph" alt="Un otaku paseando"/> </a>
+
+    <h3> listas desordena: </h3>
+    <ul> 
+      <li> Uno </li>
+      <li> Dos </li>
+      <li> Tres </li>
+    </ul>
+
+    <h3> listas ordena: </h3>
+    <ol> 
+      <li> A </li>
+      <li> B </li>
+      <li> C </li>
+    </ol>
+
+    <p> Esto es <strong> NEGRITA/RESALTADO </strong> para mi </p>
+    <p> Esto es <em> INCLINADO </em> para mi </p>
+    <p> Esto es <s> TACHADO </s> para mi </p>
+
+    <hr> 
+    <!-- Comentario simple en html -->
+    <!-- ?Duda -->
+    <!-- !Advertencia -->
+    <!-- **Importante -->
+    <!-- ToDo: Tarea por realizar -->
+  </main>
+
+  <form action="">
+    <input type="text" placeholder="Ingresa tu nombre" required>
+    <label> <input type="radio"> Con label </label>
+    <input type="radio"> Sin label
+
+    <!-- Conectamos el label con la etiqueta dandole un identificador-->
+    <label for="Masculino"> <input id="Masculino" type="radio" name="Genero"> Masculino </label>
+    <label for="Femenino"> <input id="Femenino" type="radio" name="Genero"> Femenino </label>
+  
+    <input type="checkbox">
+    <button type="submit"> Enviar </button>
+  </form>
+</body>
+</html>
