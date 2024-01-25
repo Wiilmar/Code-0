@@ -1,0 +1,87 @@
+/* Elemento -> propiedad */
+* {
+    color: blueviolet;
+}
+
+body {
+    background-color: aliceblue;
+}
+
+/* *=Selector Universal */
+
+.cajon {
+    background-color: chocolate;
+}
+
+
+h1 {
+    color: aqua;
+    font-size: 100px;
+    font-family: 'Roboto', sans-serif;
+    /* Roboto se usa, en caso de fallar sans-serif quedara de respaldo */
+}
+
+h2 {
+    color: blue;
+}
+
+h3 {
+    color: green;
+}
+
+img {
+    width: 300px;
+    height: 220px;
+    border: 30px rgb(100, 100, 112);
+    border-style: solid dashed dotted ridge;
+    border-radius: 10px 300px 100px 600px;
+    /* border-radius: 50%; */
+}
+
+#titulo {
+    font-size: 50px;
+    border: 20px solid green;
+}
+
+/* Diseno de elemento por atributo */
+img[alt] {
+    background-color: rgb(211, 9, 191);
+}
+
+/* Diseno por atributo */
+[type="checkbox"] {
+    margin: 5px;
+    cursor: pointer;
+    width: 30px;
+    height: 50px;
+}
+
+/* Diseno por enlace */
+a[href="https://ascii.cl/es/codigos-html.htm"] {
+    color: chartreuse;
+    cursor: copy;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+/* Imagenes */
+.contenedor-pic1 {
+    background-color: aquamarine;
+}
+#pic-1 {
+    padding: 14px 40px 2px 100px;
+    /* Top Right Buttom Left*/
+    border: black solid 10px;
+    border-radius: 0px;
+}
+
+.contenedor-pic2 {
+    background-color: rgb(180, 188, 154);
+}
+
+#pic-2 {
+    margin: 54px 10px;
+    border: rgb(9, 211, 26) solid 10px;
+    border-radius: 0px;
+}

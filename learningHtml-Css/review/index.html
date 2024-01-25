@@ -3,13 +3,17 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="style.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400&display=swap" rel="stylesheet">
   <title> Repaso de html </title>
 </head>
 <body>
 
   <main>
     <!-- Main: contenido principal de la pagina -->
-    <h1> Titan </h1>
+    <h1 id="titulo"> Titan </h1>
     <h2> Gigante </h2>
     <h3> Grande </h3>
     <h4> Mediano </h4>
@@ -55,16 +59,55 @@
   </main>
 
   <form action="">
-    <input type="text" placeholder="Ingresa tu nombre" required>
-    <label> <input type="radio"> Con label </label>
-    <input type="radio"> Sin label
+
+    <!-- **Botones de radio -->
+    <input type="text" placeholder="Ingresa tu nombre" required><br>
+    <label> <input type="radio"> Con label </label><br>
+    <input type="radio"> Sin label <br>
 
     <!-- Conectamos el label con la etiqueta dandole un identificador-->
     <label for="Masculino"> <input id="Masculino" type="radio" name="Genero"> Masculino </label>
-    <label for="Femenino"> <input id="Femenino" type="radio" name="Genero"> Femenino </label>
+    <br>
+    <!-- br = Break -->
+    <label for="Femenino"> <input id="Femenino" type="radio" name="Genero"> Femenino </label><br>
+    <!-- Usando el name nos permitimos que el input pertenezca a un grupo por lo tanto no se podra elegir dos opciones en simultaneo-->
   
-    <input type="checkbox">
+    <hr>
+    <!-- **Botones de verificacion -->
+    <input type="checkbox"> Sin label 
+
+    <label for="label"> <input id="label" type="checkbox"> Con label </label>
+
+    <h3> Que te gusta? </h3>
+    <label for="Pera"> 
+      <input id="Pera" type="checkbox" name="fruta" value="Pera"> Pera  
+    </label> 
+    <label for="Manzana" value="Pera"> 
+      <input id="Manzana" type="checkbox" name="fruta" value="Manzana" value="manzana"> manzana  
+    </label> 
+    <label for="pepino">
+       <input id="pepino" type="checkbox" name="fruta" checked value="pepino"> pepino  
+    </label> 
     <button type="submit"> Enviar </button>
   </form>
+
+  <div class="cajon"> 
+    <h3> Estoy dentro de div </h3>
+  </div>
+
+  <div class="contenedor-pic1">
+    <h3> Esto es el efecto de padding:</h3>
+    <img id="pic-1" src="https://i.pinimg.com/564x/95/34/b3/9534b3abdf4aafaa9d1d565951f0f1fa.jpg" alt="imagen de anime1">
+  </div>
+
+  <div class="contenedor-pic2">
+    <h3> Este es el efecto de margin</h3>
+    <img id="pic-2" src="https://i.pinimg.com/564x/7d/90/01/7d9001d37be6b827342ce8118f4a8d94.jpg" >
+  </div>
+
+  <footer>
+    <p>Este es un contenido de pie de pagina normal</p>
+    <small> <p> Este es un contenido de pie de pagina mas chiquito </p> </small>
+  </footer>
 </body>
 </html>
