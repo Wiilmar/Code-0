@@ -1,4 +1,9 @@
 /* Elemento -> propiedad */
+:root {
+    --color-global: #d70db2;
+    /* Root hace referencia a el html en el cual todo el contenido que este dentro de root, cualquier otro elemento podra acceder llamando a la variable global */
+}
+
 * {
     color: blueviolet;
 }
@@ -45,7 +50,7 @@ img {
 
 /* Diseno de elemento por atributo */
 img[alt] {
-    background-color: rgb(211, 9, 191);
+    background-color: var(--color-global, pink);
 }
 
 /* Diseno por atributo */
@@ -83,5 +88,121 @@ a[href="https://ascii.cl/es/codigos-html.htm"] {
 #pic-2 {
     margin: 54px 10px;
     border: rgb(9, 211, 26) solid 10px;
-    border-radius: 0px;
+    border-radius: 50%;
 }
+
+/* Contenedor principal */
+
+.contenedor-principal {
+    padding: 5px;
+    font-size: 15px;
+    background-color: yellow;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.rectangulo {
+    background-color: black;
+    padding: 5px;
+    margin: 5px;
+}
+
+.px {
+    background-color: blue;
+    width: 200px;
+}
+/* vw = representa a la ventana del ancho del navegador */
+.vw {
+    background-color: aqua;
+    width: 20vw;
+    /* en este caso representa al 20 del ancho del navegador */
+    /* esta medida es relativa al ancho de pantalla del navegador */
+}
+
+.em {
+    background-color: chartreuse;
+    width: 20em;
+    font-size: 1.5em;
+    /* esta medida es relativa a el tamano de la fuente, si se modifica la fuente tambien este div cambiara su ocupacion desde el ancho */
+}
+
+/* prioridad de clases */
+
+.texto-azul {
+    color: aqua;
+}
+
+
+.texto-morado {
+    color: blueviolet;
+}
+
+/* Sin importar como se asigne las clases en html, la prioridad la tiene la ultima clase que ponga en el css */
+
+/* ------------- */
+
+.decoracion-enlace {
+    text-decoration: none;
+    color: chartreuse;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: double black underline;
+    color: black;
+    font-size: 20px;
+}
+
+/* La prioridad en el estilo lo tiene el nombre de la clase porque es mas especifica que llamar a un elemento por tipo de etiqueta que es mas general, sin importar el orden en el que este en css */
+
+/* ------------- */
+
+.soyclase {
+    color: aqua;
+    font-size: medium;
+    font-style: italic;
+}
+
+#soyid {
+    color: blueviolet;
+    font-style: oblique;
+    font-size: medium;
+}
+
+/* La prioridad en este caso la tiene el id sin importar el orden que se encuentre en html, pero, es importante recalcar que es mala practica decorar con css usando los id */
+
+.soyclase {
+    color: aqua !important;
+    /* Pero si le colocamos !important al lado de la propiedad este tomara mayor priorizacion */
+}
+
+/* ------------- */
+
+.hexadecimal-decoracion {
+    color: #f00;
+    /* El hexadecimal de arriba es lo mismo que decir: FF0000 "SOLO SE PUEDEN ABREVIAR CUANDO SE REPITEN LA PAREJA DE HEXADECIMALES"*/
+}
+
+.rgb-decoracion {
+    color: rgba(228, 18, 172, 0.4)
+    /* El rgb me permite asignar colores desde el formato RGB, cuando se aplica la propiedad RGBA estoy indicandole que de cuarto valor tendra la tranparencia del color asginado*/
+}
+
+/* Variables en css */
+.ejemplodevariable {
+    --soyunavariableencss: white; 
+    --soyotravariableencss: black;
+}
+
+.colorvariable {
+    color: var(--soyunavariableencss);
+    background-color: var(--soyotravariableencss);
+    color: var(--soyunavariableencss, black);
+    /* Cuando se colocan mas de dos valores a una propiedad var, el primer valor es apra utilziar la variable / el segundo valor es para utilizar el valor de respaldo para en caso de que no funcione la variable*/
+}
+
+
+/* Comentario simple en css */
+/* ?Duda */
+/* !Advertencia */
+/* **Importante */
+/* ToDo: Tarea por realizar */
