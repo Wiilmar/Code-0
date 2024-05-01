@@ -1,1 +1,0 @@
-Esta carpeta contendra paginas web de dificultad: facil, intermedio y dificil. Esta dificultad es considerada por el autor dependiendo de sus capacidades o habilidades en la programacion.
