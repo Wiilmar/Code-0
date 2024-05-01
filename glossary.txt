@@ -11,3 +11,5 @@
 [-] Bucle: Manera de realizar uno o varios procedimientos de manera automatizada.
 [-] Iteración: Una iteración ocurre cuando se ejecuta un conjunto de instrucciones dentro de un bucle.
 [-] Librería: Es un conjunto de código preescrito que proporciona funcionalidades específicas para agilizar el desarrollo de un proyecto.
+[-] Condicional: Ejecuta un determinado bloque de codigo con base a la condicion.
+[-] Anidación: Es una estructura de codigo que esta en el interior de otra estructura de codigo.
