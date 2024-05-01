@@ -1,2 +1,4 @@
-[-] Puedes encontrar el contenido utilizado en esta carpeta en el siguiente enlace:
-https://lenguajejs.com/fundamentos/
+[¿Quieres aprender a programar?] 
+Te proporciono una lista de páginas web que enseñan desde los conceptos básicos de programación hasta cómo utilizar tu primer lenguaje de programación:
+
+[-] https://lenguajejs.com/fundamentos/
