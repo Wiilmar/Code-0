@@ -1,0 +1,13 @@
+[Glosario de palabras en programacion]
+
+[-] Programa: Es un software que contiene una estructuración de código y es creado por un programador.
+[-] Algoritmo: Conjunto de pasos que permite realizar una o varias tareas.
+[-] Comentario: Mensaje escrito por un programador para indicar la funcionalidad o propósito de un fragmento de código.
+[-] Identación: Espacios organizados de manera estructurada para entender el inicio y final de ciertos procedimientos en programación.
+[-] Variable: Un espacio de memoria que es identificado por un nombre y guarda algún tipo de dato que puede variar.
+[-] Constante: Un espacio de memoria que es identificado por un nombre y guarda algún tipo de dato que no puede cambiar una vez asignado.
+[-] Función: Agrupación de código que permite ejecutar una o varias acciones en simultáneo.
+[-] Parámetro: Un valor que se pasa a una función para que la función realice un determinado procedimiento.
+[-] Bucle: Manera de realizar uno o varios procedimientos de manera automatizada.
+[-] Iteración: Una iteración ocurre cuando se ejecuta un conjunto de instrucciones dentro de un bucle.
+[-] Librería: Es un conjunto de código preescrito que proporciona funcionalidades específicas para agilizar el desarrollo de un proyecto.
