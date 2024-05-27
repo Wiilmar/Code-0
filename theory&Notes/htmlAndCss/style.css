@@ -1,0 +1,42 @@
+.containerOne{
+    width: 20px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    padding: 0cm;
+    padding-top: 0%;
+    padding-inline-end: 0%;
+    motion-path: calc();
+    quotes: initial;
+}
+
+.ContainerTwo{
+    width: min-content;
+    height: max-content;
+    justify-content: end;
+    border: 0cap;
+    background: scroll;
+    visibility: visible;
+    position: fixed;
+}
+
+.containerThree{
+    width: 20px;
+    height: 100%;
+    position: absolute;
+    position: relative;
+    text-wrap: wrap;
+    padding: auto;
+    motion: auto;
+    margin-top: auto;
+    min-width: max-content;
+    inset: unset;
+    text-align: center;
+    padding: 0cqi;
+
+}
+
+.containerFour{
+    width: 300px;
+    
+}

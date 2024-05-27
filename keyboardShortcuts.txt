@@ -1,0 +1,10 @@
+[Atajos Visual Studio Code]
+
+[-] Ctrl + Shift + P: Abre la consola de comandos del editor de codigo
+[-] Alt + Z: En caso de que nuestro código sea más extenso que la anchura de la pantalla, este atajo nos permite romper la línea y así utiliza únicamente el ancho de nuestra pantalla.
+[-] Ctrl + Shift + N: Abre una nueva ventana de VS Code
+[-] Ctrl + Shift + W: Cierra la ventana actual de VS Code.
+[-] 
+[-] 
+[-] 
+[-]

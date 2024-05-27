@@ -13,3 +13,5 @@
 [-] Librería: Es un conjunto de código preescrito que proporciona funcionalidades específicas para agilizar el desarrollo de un proyecto.
 [-] Condicional: Ejecuta un determinado bloque de codigo con base a la condicion.
 [-] Anidación: Es una estructura de codigo que esta en el interior de otra estructura de codigo.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
