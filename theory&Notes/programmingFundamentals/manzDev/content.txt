@@ -1,4 +1,0 @@
-[¿Quieres aprender a programar?] 
-Te proporciono una lista de páginas web que enseñan desde los conceptos básicos de programación hasta cómo utilizar tu primer lenguaje de programación:
-
-[-] https://lenguajejs.com/fundamentos/
