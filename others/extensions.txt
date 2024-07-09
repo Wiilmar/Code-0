@@ -1,6 +1,6 @@
 [Extensiones para Visual Studio Code]
 
-[-] 
+[-] Spanish Language Pack for Visual Studio Code: Cambia el idioma de Visual Studio Code a español
 [-] 
 [-] 
 [-] 
