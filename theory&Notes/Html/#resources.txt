@@ -1,0 +1,4 @@
+[-] Resources [-]
+[o] https://developer.mozilla.org/es/docs/Web/HTML
+[o] https://www.aprenderaprogramar.com/index.php?option=com_content&view=category&id=69&Itemid=19
+[o] https://bluuweb.github.io/desarrollo-web-bluuweb/

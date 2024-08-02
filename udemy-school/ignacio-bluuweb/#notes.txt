@@ -1,0 +1,15 @@
+[-] Resources [-]
+[o Tabla de caracteres especiales]  https://symbl.cc/es/unicode-table/ 
+[o Guías bluuweb] https://bluuweb.dev/01-html/
+[o HTML, CSS y Bootstrap 5 (bluuweb)] https://bluuweb.github.io/desarrollo-web-bluuweb/#¿dudas-y-preguntas
+
+[-] Others [-]
+[o] Que son las convenciones de nomenclatura?
+R/: Son un conjunto de reglas y prácticas recomendadas para nombrar elementos.
+
+[o] Cuales son las reglas de nomenclatura aplicare?
+R/: 
+- Regla para nombre de variables y funciones: camelCase
+- Regla para nombre de constantes: UPPER_SNAKE_CASE
+- Regla para nombre de clases: PascalCase
+- Regla para nombre de carpetas y archivos: kebab-case
