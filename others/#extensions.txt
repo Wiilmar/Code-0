@@ -1,10 +1,7 @@
 [Extensiones para Visual Studio Code]
 
 [-] Spanish Language Pack for Visual Studio Code: Cambia el idioma de Visual Studio Code a español
-[-] 
-[-] 
-[-] 
-[-] 
-[-] 
-[-] 
-[-]
+[-] Material Theme: Cambia los iconos de visual studio Code 
+[-] Material Theme Icons: Cambia la paleta de colores de visual studio code
+[-] Better Comments: Mejores comentarios en visual studio code
+[-] CodeSnap: Capturas de pantallas del codigo seleccionado.
