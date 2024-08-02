@@ -4,22 +4,27 @@
 [o HTML, CSS y Bootstrap 5 (bluuweb)] https://bluuweb.github.io/desarrollo-web-bluuweb/#¿dudas-y-preguntas
 
 [-] Others [-]
-[o] Que son las convenciones de nomenclatura?
+[o] ¿Qué son las convenciones de nomenclatura?
 R/: Son un conjunto de reglas y prácticas recomendadas para nombrar elementos.
 
-[o] Cuales son las reglas de nomenclatura que aplicare?
-R/: 
-- Regla para nombre de variables y funciones: camelCase
-- Regla para nombre de constantes: UPPER_SNAKE_CASE
-- Regla para nombre de clases: PascalCase
-- Regla para nombre de carpetas y archivos: kebab-case
-(No escribir simbolos, espacios y tildes, hazlo simple)
+[o] ¿Cuáles son las reglas de nomenclatura que aplicaré?
+R/:
+- Regla para nombres de variables y funciones: camelCase
+- Regla para nombres de constantes: UPPER_SNAKE_CASE
+- Regla para nombres de clases: PascalCase
+- Regla para nombres de carpetas y archivos: kebab-case
+(No escribir símbolos, espacios ni tildes, hazlo simple)
 
-[o] Para que sirve la etiqueta <p>?
+[o] ¿Para qué sirve la etiqueta `<p>`?
 R/: Define un párrafo de texto.
 
-[o] Para que sirve la etiqueta <title>?
-R/: define el título del documento web, visible en la pestaña del navegador.
+[o] ¿Para qué sirve la etiqueta `<title>`?
+R/: Define el título del documento web, visible en la pestaña del navegador.
 
-[o] Para que sirve el atributo title?
-R/: proporciona información adicional sobre un elemento específico, visible como un tooltip.
+[o] ¿Para qué sirve el atributo `title`?
+R/: Proporciona información adicional sobre un elemento específico, visible como un tooltip.
+
+[o] ¿Qué diferencia hay entre `<h1>` y `<h2, h3, h4, h5, h6>`?
+R/: Dependiendo del número, el tamaño del texto será de mayor a menor. Además, `<h1>` es utilizado para títulos y el resto es utilizado para subtítulos.
+
+////////////////////////// 
