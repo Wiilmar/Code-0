@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Column table challenge 1.0 </title>
+  </head>
+  <body>
+    <img src="./img/challenge-4.png" alt="Table image with column" width="720px">
+    <table border="1" style="width: 780px;">
+      <caption> Tabla dinamica de ventas </caption> 
+      <thead>
+        <tr>
+          <th colspan="2"> Fecha (mes) </th>
+          <th> Enero </th>
+          <th> Febrero </th>
+          <th> Marzo </th>
+          <th> Suma total </th>
+        </tr>
+        <tr>
+          <th> Potencia </th>
+          <th> Producto </th>
+          <th colspan="3"> Unidades (suma) </th>
+          <th> </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td rowspan="3"> Electrica </td>
+          <td> Bicicletas </td>
+          <td> 476 </td>
+          <td> 354 </td>
+          <td> 392 </td>
+          <td> 1222 </td>
+        </tr>
+        <tr>
+          <td> Motonetas </td>
+          <td> 387 </td>
+          <td> 312 </td>
+          <td> 211 </td>
+          <td> 910 </td>
+        </tr>
+        <tr>
+          <td> Patinetas </td>
+          <td> 251 </td>
+          <td> 315 </td>
+          <td> 467 </td>
+          <td> 1033 </td>
+        </tr>
+        <tr>
+          <td colspan="2"> Total de electricas </td>
+          <td> 1114 </td>
+          <td> 981 </td>
+          <td> 1070 </td>
+          <td> 3165 </td>
+        </tr>
+        <tr>
+          <td rowspan="2"> Manual </td>
+          <td> Bicicletas </td>
+          <td> 302 </td>
+          <td> 219 </td>
+          <td> 464 </td>
+          <td> 985 </td>
+        </tr>
+        <tr>
+          <td> Motonetas </td>
+          <td> 309 </td>
+          <td> 419 </td>
+          <td> 293 </td>
+          <td> 1021 </td>
+        </tr>
+        <tr>
+          <td colspan="2"> Manual en total </td>
+          <td> 611 </td>
+          <td> 638 </td>
+          <td> 757 </td>
+          <td> 2006 </td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <th colspan="2"> Suma total </th>
+          <th> 1725 </th>
+          <th> 1619 </th>
+          <th> 1827 </th>
+          <th> 5171 </th>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>
