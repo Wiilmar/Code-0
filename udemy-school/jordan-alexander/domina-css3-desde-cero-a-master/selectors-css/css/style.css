@@ -12,6 +12,7 @@ nav {
   color: yellow;
 }
 
-a[href="https://alexcgdesign.com"] {
+a[href="https://alexcgdesign.com"]
+{
   text-decoration: none;
 }
