@@ -1,0 +1,52 @@
+h2,
+h3 {
+  font-size: large;
+  font-family: monospace;
+  color: green;
+  background-color: black;
+}
+
+.contenedor p {
+  color: blue;
+  background-color: aqua;
+}
+
+section > h5 {
+  color: darkorange;
+}
+
+nav.contenedor.titulo {
+  background-color: beige;
+}
+
+nav .contenedor {
+  background-color: cadetblue;
+}
+
+.contenedor a {
+  text-decoration: none;
+  color: firebrick;
+  /* aplica estilo a los elementos "a" que sean descendientes de .contenedor, sin importar la posicion de su jerarquia*/
+}
+
+.contenedor > a {
+  font-size: 20px;
+  font-weight: bold;
+  /* Aplica el estilo a los elementos "a" que son hijos directos de .contenedor */
+}
+
+h2 + p {
+  color: gold;
+  /* Aplica estilo a un hermnano adyacente que comparte el mismo elemento padre */
+}
+
+h6 ~ p {
+  color: blueviolet;
+  /* Aplica estilos a todos los hermanos adyacentes del hermano h6 que compartan el mismo elemento padre */
+}
+
+h3 ~ p {
+  color: indigo;
+  background-color: gray;
+  /* Todos los hermanos que sean adyacentes de h3 tendran el color indigco */
+}
