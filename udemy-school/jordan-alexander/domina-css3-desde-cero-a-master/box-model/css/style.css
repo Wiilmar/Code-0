@@ -1,3 +1,19 @@
-h1 {
-  text-align: center;
+body {
+  margin: 0;
+}
+
+.box {
+  width: 300px;
+  height: 200px;
+}
+
+.box1 {
+  background-color: cornflowerblue;
+  /* margin: 10px 0px 0px 100px; */
+}
+
+.box2 {
+  background: tomato;
+  opacity: 0.5;
+  margin-top: -20px;
 }
