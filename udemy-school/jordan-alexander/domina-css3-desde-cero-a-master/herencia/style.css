@@ -11,6 +11,27 @@
   font-family: Arial;
 }
 
+.herencia {
+  text-align: center;
+  font-weight: bold;
+  font-family: "Courier New";
+  font-size: 30px;
+  background-color: aqua;
+  height: 100px;
+  border: 10px dotted indigo;
+}
+
+.herencia > p {
+  border: inherit;
+}
+
+.herencia > h3 {
+  text-align: initial;
+  font-size: initial;
+  font-weight: initial;
+  font-family: initial;
+}
+
 /* .title {
   font-size: 10px;
   color: aqua !important;

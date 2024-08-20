@@ -1,0 +1,57 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* !sintaxis de border-radius: esquina superior izquierda - esquina superior derecha - esquina inferior derecha - esquina inferior izquierda */
+/* * border-radius: 10px 50px 40px 50px; - Modifica las esquinas de manera mas compacta */
+/* *border: 20px 40px; - Modifica las esquinas opuestas */
+/* * Modica las esquinas de manera mas especifica
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px; */
+
+.card {
+  margin: 30px auto;
+  width: 400px;
+  height: auto;
+  padding: 20px 0;
+  border: 1px solid black;
+  /* padding-top: 1px; */
+  /* Aplicando padding o aplicando border solucionamos el colapso de margen*/
+}
+
+.img {
+  display: block;
+  object-fit: cover;
+  width: 200px;
+  height: 200px;
+  margin: 20px auto;
+  padding: 0px;
+  border-radius: 50%;
+}
+
+.cta {
+  display: block;
+  margin: 0 auto;
+  width: 29%;
+  background-color: crimson;
+  color: white;
+  border-radius: 3px;
+  padding: 20px 10px;
+  text-decoration: none;
+  text-align: center;
+  border: 1px solid black;
+}
+
+.cta:hover {
+  background-color: rgb(173, 1, 36);
+}
+
+.name {
+  text-align: center;
+  margin: 20px 0;
+  font-family: Arial;
+}
