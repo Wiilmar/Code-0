@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  height: 400px;
+  background-color: red;
+  color: white;
+}
+
+body > header > h5.specificity#mas-importante {
+  color: rgb(5, 5, 5);
+  background-color: rgb(0, 252, 21);
+}
+
+h5 {
+  background-color: blue;
+}
+
+#id-h3 {
+  color: azure;
+  background-color: black;
+}
+
+.clase-h3 {
+  color: blueviolet;
+  background-color: black;
+}
+
+h3 {
+  color: yellow;
+  background-color: aliceblue;
+}
+
+/*
+1000 - Inline css // No se usa
+100 - ID
+10 - Class atributos
+1 - Elemento
+
+Mientras mayor sea el puntaje, mayor sera la prioridad para sobreescribir los estilos
+*/

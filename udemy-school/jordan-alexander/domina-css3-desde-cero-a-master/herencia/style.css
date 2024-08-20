@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  height: 400px;
+  background-color: red;
+  color: white;
+  font-family: Arial;
+}
+
+/* .title {
+  font-size: 10px;
+  color: aqua !important;
+   No es recomendable usar !important 
+}
+
+body > header > h2.title#title {
+  font-size: 30px;
+  color: blueviolet;
+} */

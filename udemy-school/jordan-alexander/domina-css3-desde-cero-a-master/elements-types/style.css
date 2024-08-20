@@ -5,7 +5,30 @@
 }
 
 .enlaces {
+  display: inline-block;
   text-decoration: none;
   background: chartreuse;
   color: black;
+  padding: 20px 40px;
+  text-align: center;
+  width: 200px;
+}
+
+.block {
+  /* display: none; */
+}
+
+.block2 {
+  opacity: 0.2;
+}
+
+.block-element {
+  background-color: blue;
+  color: white;
+}
+
+.line-element {
+  background-color: chartreuse;
+  color: crimson;
+  display: inline;
 }
