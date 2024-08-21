@@ -83,3 +83,29 @@
   border-radius: 5px;
   text-decoration: none;
 }
+
+.goku {
+  display: block;
+  object-fit: cover;
+  width: 350px;
+  margin: 10px auto;
+  /* drop-shadow(h-offset v-offset blur color)
+  drop-shadow(desplazamientoH desplazamientoV Difuminado color) */
+  filter: drop-shadow(0 0 50px yellow);
+}
+
+.face {
+  display: block;
+  width: 310px;
+  object-fit: cover;
+  margin: 10px auto;
+  filter: drop-shadow(1px 1px 20px rgba(255, 192, 203, 0.616));
+}
+
+.wolf {
+  display: block;
+  width: 310px;
+  object-fit: cover;
+  margin: 10px auto;
+  filter: drop-shadow(0 0 40px rgb(90, 88, 88));
+}
