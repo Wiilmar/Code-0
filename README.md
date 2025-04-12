@@ -1,19 +1,18 @@
 ![footer](https://github.com/Wiilmar/Code-0/assets/130717547/18d5fa92-c6c4-4aee-9be5-8046f74cfffe)
 
 <div align="center">
-  <h2> Avanzando hacia el camino del desarrollo full-stack </h2>
-  <p> En el camino hacia la excelencia como programador, he concebido este repositorio como un espacio para el crecimiento y la superación. Aquí, me dedico a perfeccionar mis habilidades
-      mediante cursos, ejercicios y proyectos personales. Siente la libertad de aprovechar todo lo que este repositorio tiene para ofrecer, ya sea para aprender, inspirarte o 
-      simplemente revisar mi progreso. ¡Que este viaje sea una fuente constante de aprendizaje y desarrollo para todos nosotros! 🌟 </p>
+  <h2> Avanzando hacia el camino del desarrollo full-stack web </h2>
+  <p> En el camino hacia la excelencia como programador, he concebido este repositorio como un espacio para el crecimiento y la superación. Aquí, me dedico a perfeccionar mis habilidades mediante cursos, ejercicios y proyectos personales. Siente la libertad de aprovechar todo lo que este repositorio tiene para ofrecer, ya sea para aprender, inspirarte o simplemente revisar mi progreso. ¡Que este viaje sea una fuente constante de aprendizaje y desarrollo para todos nosotros! 🌟 </p>
 
-  |🧰| Mi objetivo es perfeccionar o aprender las siguientes tecnologias:
+|🧰| Mi objetivo es perfeccionar o aprender las siguientes tecnologias:
+
   <p align="center">
-      <img src="https://skillicons.dev/icons?i=html,css,js,ts,git,postgres,express,firebase,androidstudio,kotlin,mongodb,mysql,nextjs,nodejs,postman,react,vite,tailwind,bootstrap,vscode,figma,github&perline=11" />
+      <img src="https://skillicons.dev/icons?i=vscode,html,css,git,figma,PSeInt,chatgpt,js,tailwind,react,ts&perline=11" />
   </p>
 
-  |💬| Tambien quiero mejorar en los siguientes idiomas : <br/> <br/>
-  <img width="45px" src="https://github.com/Wiilmar/Code-0/assets/130717547/fe0d1496-c8fd-461e-95a0-97b8f289eba1">
-  
+|💬| Tambien quiero mejorar en los siguientes idiomas : <br/> <br/>
+<img width="45px" src="https://github.com/Wiilmar/Code-0/assets/130717547/fe0d1496-c8fd-461e-95a0-97b8f289eba1">
+
   <img alt="Separador" src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
   <h2> |📈| Progreso [2%] </h2>

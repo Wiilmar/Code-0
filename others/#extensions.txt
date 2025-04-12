@@ -5,5 +5,5 @@
 [-] Material Theme Icons: Cambia la paleta de colores de visual studio code
 [-] Better Comments: Mejores comentarios en visual studio code
 [-] CodeSnap: Capturas de pantallas del codigo seleccionado.
-
+[-] Discord Presence: Vincula tu cuenta de discord para mostrar tus actividades de programacion.
 
