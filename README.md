@@ -7,7 +7,7 @@
 |🧰| Mi objetivo es perfeccionar o aprender las siguientes tecnologias:
 
   <p align="center">
-      <img src="https://skillicons.dev/icons?i=vscode,html,css,git,figma,PSeInt,chatgpt,js,tailwind,react,ts&perline=11" />
+      <img src="https://skillicons.dev/icons?i=vscode,html,css,git,figma,js,tailwind,react,ts&perline=11" />
   </p>
 
 |💬| Tambien quiero mejorar en los siguientes idiomas : <br/> <br/>
