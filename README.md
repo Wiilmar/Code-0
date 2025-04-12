@@ -7,15 +7,58 @@
 |🧰| Mi objetivo es perfeccionar o aprender las siguientes tecnologias:
 
 <details>
-  <summary> Ruta Frontend</summary>
-  <br/>
-  <a href="https://github.com/anuraghazra/github-readme-stats"><img alt="DenverCoder1's Github Stats" src="https://github-readme-stats.vercel.app/api?username=DenverCoder1&show_icons=true&count_private=true&hide=" /></a>
-</details>
-<details>
   <summary>🎨 Ruta Frontend 🎨</summary>
   <br/>
   <p align="center">
-      <img src="https://skillicons.dev/icons?i=vscode,html,css,git,figma,js,tailwind,react,ts&perline=11" />
+      <img src="https://skillicons.dev/icons?i=vscode,html,css,figma,js,tailwind,react,ts&perline=11" />
+  </p>
+</details>
+
+<details>
+  <summary>🧠 Ruta Backend 🧠</summary>
+  <br/>
+  <p align="center">
+      <img src="https://skillicons.dev/icons?i=java,spring,nodejs&perline=11" />
+  </p>
+</details>
+
+<details>
+  <summary>🗃️ Ruta Base de datos 🗃️</summary>
+  <br/>
+  <p align="center">
+      <img src="https://skillicons.dev/icons?i=postgres,mysql&perline=11" />
+  </p>
+</details>
+
+<details>
+  <summary>🛫 Ruta de despliegue 🛫</summary>
+  <br/>
+  <p align="center">
+      <img src="https://skillicons.dev/icons?i=docker,vercel&perline=11" />
+  </p>
+</details>
+
+<details>
+  <summary>🔍 Ruta de QA 🔍</summary>
+  <br/>
+  <p align="center">
+      <img src="https://skillicons.dev/icons?i=jest&perline=11" />
+  </p>
+</details>
+
+<details>
+  <summary>📱 Ruta de desarrollo Móvil 📱</summary>
+  <br/>
+  <p align="center">
+      <img src="https://skillicons.dev/icons?i=androidstudio,kotlin&perline=11" />
+  </p>
+</details>
+
+<details>
+  <summary>⏱️ Ruta Control de versiones ⏱️ </summary>
+  <br/>
+  <p align="center">
+      <img src="https://skillicons.dev/icons?i=git,github&perline=11" />
   </p>
 </details>
 
