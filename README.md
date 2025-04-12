@@ -6,6 +6,17 @@
 
 |🧰| Mi objetivo es perfeccionar o aprender las siguientes tecnologias:
 
+<details>
+  <summary> Ruta Frontend</summary>
+  <br/>
+  <a href="https://github.com/anuraghazra/github-readme-stats"><img alt="DenverCoder1's Github Stats" src="https://github-readme-stats.vercel.app/api?username=DenverCoder1&show_icons=true&count_private=true&hide=" /></a>
+</details>
+<details>
+  <summary> Ruta Frontend</summary>
+  <br/>
+  <a href="https://github.com/anuraghazra/github-readme-stats"><img alt="DenverCoder1's Github Stats" src="https://github-readme-stats.vercel.app/api?username=DenverCoder1&show_icons=true&count_private=true&hide=" /></a>
+</details>
+
   <p align="center">
       <img src="https://skillicons.dev/icons?i=vscode,html,css,git,figma,js,tailwind,react,ts&perline=11" />
   </p>
@@ -25,6 +36,5 @@
   ```
 <img alt="Separador" src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
   
-  "El camino que tenemos por delante puede presentar desafíos, pero estoy seguro de que con dedicación y perseverancia, alcanzaremos nuevas alturas. Cada paso que damos nos acerca más a nuestros objetivos, y cada obstáculo 
-  es una oportunidad para crecer y fortalecernos. Juntos, enfrentaremos los desafíos con determinación y lograremos grandes cosas. ¡Que nuestro viaje esté lleno de logros y superación constante!" -WR
+  "El camino que tenemos por delante puede presentar desafíos, pero estoy seguro de que con dedicación y perseverancia, alcanzaremos nuevas alturas. Cada paso que damos nos acerca más a nuestros objetivos y cada obstáculo es una oportunidad para crecer y fortalecernos. Juntos, enfrentaremos los desafíos con determinación y lograremos grandes cosas. ¡Que nuestro viaje esté lleno de logros y superación constante!" -WR
 </div>
