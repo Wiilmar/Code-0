@@ -12,14 +12,12 @@
   <a href="https://github.com/anuraghazra/github-readme-stats"><img alt="DenverCoder1's Github Stats" src="https://github-readme-stats.vercel.app/api?username=DenverCoder1&show_icons=true&count_private=true&hide=" /></a>
 </details>
 <details>
-  <summary> Ruta Frontend</summary>
+  <summary>🎨 Ruta Frontend 🎨</summary>
   <br/>
-  <a href="https://github.com/anuraghazra/github-readme-stats"><img alt="DenverCoder1's Github Stats" src="https://github-readme-stats.vercel.app/api?username=DenverCoder1&show_icons=true&count_private=true&hide=" /></a>
-</details>
-
   <p align="center">
       <img src="https://skillicons.dev/icons?i=vscode,html,css,git,figma,js,tailwind,react,ts&perline=11" />
   </p>
+</details>
 
 |💬| Tambien quiero mejorar en los siguientes idiomas : <br/> <br/>
 <img width="45px" src="https://github.com/Wiilmar/Code-0/assets/130717547/fe0d1496-c8fd-461e-95a0-97b8f289eba1">
