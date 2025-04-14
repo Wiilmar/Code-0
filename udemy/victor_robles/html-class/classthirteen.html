@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width= device-width, initial-scale=1.0" />
+    <title> Formularios </title>
+  </head>
+  <body>
+    <header>
+      <nav> </nav>
+    </header>
+    <main>
+      <section>
+        <h2> Validacion </h2>
+        <article>
+          <form action="">
+            <fieldset>
+              <legend> Validacion formulario </legend>
+              <input
+                type="text"
+                required
+                minlength="2"
+                maxlength="20"
+                pattern="[A-Za-z ]+" />
+              <input type="number" required min="5" max="20" />
+              <input type="submit" value="Enviar" />
+            </fieldset>
+          </form>
+        </article>
+        <article>
+          <h2> Formulario </h2>
+          <form action="">
+            <fieldset>
+              <legend> Info</legend>
+              <div>
+                <label for="campo_nombre"> Nombre</label>
+                <input
+                  type="text"
+                  id="campo_nombre"
+                  name="nombre_usuario"
+                  placeholder="Ingrese el nombre" />
+              </div>
+              <div>
+                <label for="descripcion"> Descripcion </label>
+                <textarea
+                  id="descripcion"
+                  name="campo_descripcion"
+                  placeholder="Descripcion"></textarea>
+              </div>
+              <div>
+                <label for="correo"> correo </label>
+                <input type="email" id="correo" name="correo_usuario" />
+              </div>
+              <div>
+                <label for="password"> Contra </label>
+                <input type="password" id="camp_password" name="password" />
+              </div>
+              <div>
+                <label for="campo_hombre"> Hombre </label>
+                <input
+                  type="radio"
+                  id="campo_hombre"
+                  name="genero"
+                  value="hombre" />
+                <label for="campo_mujer"> Mujer </label>
+                <input
+                  type="radio"
+                  id="campo_mujer"
+                  name="genero"
+                  value="mujer" />
+
+                <div>
+                  <label for="campo_genero"> Genero </label>
+                  <select name="genero" id="campo_genero">
+                    <option value="" selected disabled hidden>
+                      Seleccionar
+                    </option>
+                    <option value="hombre"> Hombre </option>
+                    <option value="mujer"> Mujer </option>
+                    <option value="otro"> Otro </option>
+                  </select>
+                </div>
+              </div>
+              <div>
+                <!-- Forma N1 -->
+                <label for="campo_futbol" name="gustos"> Futbol </label>
+                <input
+                  type="checkbox"
+                  id="campo_futbol"
+                  name="gustos"
+                  value="futbol" />
+
+                <label for="campo_tenis"> Tenis </label>
+                <input
+                  type="checkbox"
+                  id="campo_tenis"
+                  name="gustos"
+                  value="tenis" />
+
+                <!-- Forma N2 -->
+                <label>
+                  Golf
+                  <input type="checkbox" name="gustos" value="golf" />
+                </label>
+              </div>
+
+              <div>
+                <label for="campo_color"> Escoge el color</label>
+                <input type="color" id="campo_color" name="color" />
+              </div>
+
+              <div>
+                <label for="campo_fecha"> Escoage una fecha </label>
+                <input type="date" id="campo_fecha" name="fecha" />
+              </div>
+
+              <div>
+                <label for="campo_fichero"> Envia un archivo: </label>
+                <input type="file" id="campo_fichero" name="archivo" />
+              </div>
+
+              <div>
+                <label for="campo_imagen"> Envia una imagen: </label>
+                <input
+                  type="image"
+                  id="campo_imagen"
+                  name="imagen"
+                  src="./img/img-1.jpg"
+                  width="100px" />
+              </div>
+
+              <div>
+                <input type="hidden" name="clave_secreta" value="123" />
+              </div>
+
+              <div>
+                <label>
+                  Numeros
+                  <input type="number" name="number" />
+                </label>
+              </div>
+
+              <div>
+                <label>
+                  Rango
+                  <input type="range" name="rango" />
+                </label>
+              </div>
+
+              <div>
+                <label>
+                  Buscar:
+                  <input type="search" name="buscar" />
+                  <input type="button" value="Buscar" />
+                </label>
+              </div>
+
+              <div>
+                <label>
+                  Telefono:
+                  <input type="tel" name="telefono" />
+                </label>
+              </div>
+
+              <div>
+                <label>
+                  Hora:
+                  <input type="time" name="Hora" />
+                </label>
+              </div>
+
+              <div>
+                <label>
+                  Sitio web:
+                  <input type="url" name="pagina" />
+                </label>
+              </div>
+
+              <div>
+                <label>
+                  Barra de progreso
+                  <progress max="100" value="50"></progress>
+                </label>
+              </div>
+
+              <div>
+                <label>
+                  Lista de datos
+                  <input type="text" list="frutas" name="fruta" />\
+                  <datalist id="frutas">
+                    <option value="manzana"> manzana</option>
+                    <option value="pera"> pera </option>
+                    <option value="naranja"> naranja </option>
+                    <option value="sandia"> sandia </option>
+                  </datalist>
+                </label>
+              </div>
+            </fieldset>
+            <input type="submit" value="Enviar" />
+            <input type="reset" value="Limpiar formulario" />
+          </form>
+        </article>
+      </section>
+      <aside>
+        <article></article>
+      </aside>
+    </main>
+    <footer>
+      <article></article>
+    </footer>
+  </body>
+</html>
